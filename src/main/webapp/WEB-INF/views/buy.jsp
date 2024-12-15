@@ -75,7 +75,7 @@
             %>
             <li class="HideAndSeek <%=property.getPropertytype()%> <%=property.getBudget()%> <%=property.getLocation()%>">
                 <ul class="result">
-                    <li><img src="<%= property.getLink()%>"</li>
+                    <li><img src="<%= property.getLink()%>" /> </li>
                     <li>PropertyType: <%= property.getPropertytype() %></li>
                     <li>Location: <%= property.getLocation()%></li>
                     <li>Budget: <%=property.getBudget()%></li>
